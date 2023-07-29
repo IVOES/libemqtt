@@ -1,0 +1,8 @@
+src/libemqtt.c:294:10: style: Variable 'offset' is assigned a value that is never used. [unreadVariable]
+  offset += passwordlen;
+         ^
+src/python/python-libemqtt.c:32:0: style: The function 'initlibemqtt' is never used. [unusedFunction]
+
+^
+nofile:0:0: information: Cppcheck cannot find all the include files (use --check-config for details) [missingIncludeSystem]
+
